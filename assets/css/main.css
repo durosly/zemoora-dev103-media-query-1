@@ -1,0 +1,40 @@
+body {
+	background-color: black;
+	color: slategrey;
+}
+
+/* @media (min-width: 400px) {
+	body {
+		background-color: whitesmoke;
+		color: black;
+	}
+} */
+/* Desktop first approach */
+/* @media (max-width: 900px) {
+	body {
+		background-color: gray;
+		color: black;
+	}
+}
+
+@media (max-width: 320px) {
+	body {
+		background-color: white;
+		color: black;
+	}
+} */
+
+/* mobile first approach */
+@media (min-width: 320px) {
+	body {
+		background-color: white;
+		color: black;
+	}
+}
+
+@media (min-width: 900px) {
+	body {
+		background-color: gray;
+		color: black;
+	}
+}
